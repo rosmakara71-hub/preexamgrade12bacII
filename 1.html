@@ -905,12 +905,7 @@
             
             const gradeBadge = document.getElementById('gradeDisplay');
             gradeBadge.innerText = `និទ្ទេស៖ ${evaluation.grade}`;
-            gradeBadge.className = `grade-badge ${evaluation.cssClass}
-
-<div class="action-links">
-                <a href="https://rosmakara71-hub.github.io/exam/" target="_blank" class="btn-link btn-home">🌐 ត្រឡប់ទៅទំព័រដើម</a>
-                <a href="https://rosmakara71-hub.github.io/exam/2" target="_blank" class="btn-link btn-next">➡️ ធ្វើកម្រងសំណួរបន្ទាប់</a>
-            </div>`;
+            gradeBadge.className = `grade-badge ${evaluation.cssClass}`;
             
             document.getElementById('gradeComment').innerText = evaluation.comment;
             document.getElementById('resultBox').style.display = 'block';
